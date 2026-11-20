@@ -1,0 +1,15 @@
+{"identificador":"993753104","transaccionId":"993753104","versionMensaje":"1.0","versionTurno":1,"operacion":"ALTA","fechaHoraMensaje":"2026-11-18T15:52:25-03:00","sistemaOrigen":"MARKEY","fecha":"2026-11-18T00:00:00-03:00","ambito":"AMBULATORIO","urgente":false,"confidencial":false,"paciente":{"codigo":"544829","tipoDocumento":"DNI","numeroDocumento":"47866260","nombres":"TOMÁS ANDRÉS","apellidoPaterno":"SANTANATOGLIA","fechaNacimiento":"2007-05-19","sexo":"M","contacto":{"telefono":"54-11-12312451","email":"tomas.santa70@gmail.com","domicilio":"ACONQUIJA 1398"}},"obraSocial":{"codigo":"30546741253","nombre":"OSDE","plan":"Plan 2-310","numeroAfiliado":"809808000088"},"medico":{
+                        "codigo": "",
+                        "nombres": "",
+                        "apellidoPaterno": "",
+                        "matricula": {
+                            "numero": "",
+                            "provincia": "",
+                            "tipo": ""
+                        },
+                        "contacto": {
+                            "telefono": "",
+                            "email": "",
+                            "domicilio": ""
+                        }
+                    },"institucionSolicitante":{"codigo":"14","nombre":"Clinica Monte Grande"},"recepcion":{"sedeId":"14","terminalId":"Espontaneo","usuarioId":"ADMIN","fechaHora":"2026-11-18T15:52:25-03:00"},"practicas":[{"itemId":"1243732","codigo":"C543","nombre":"INSULINA 120`","cantidad":1,"observaciones":"","muestra":false,"importePaciente":7000.00,"importeMutual":3000.00}],"administrativo":{"importeTotalPaciente":7000.00,"importeTotalMutual":3000.00,"importeCobrado":7000.00}}

@@ -1,0 +1,101 @@
+{
+  "identificador": "TURNO-000012",
+  "ordenMedicaId": "OM-000640041",
+  "transaccionId": "MK-20261012-000001",
+  "versionMensaje": "1.0",
+  "versionTurno": 1,
+  "operacion": "ALTA",
+  "fechaHoraMensaje": "2026-10-12T10:30:05-03:00",
+  "sistemaOrigen": "MARKEY",
+  "fecha": "2026-10-12T10:30:00-03:00",
+  "ambito": "AMBULATORIO",
+  "observaciones": "Recepción de prueba para homologación del circuito HIS/LIS.",
+  "urgente": false,
+  "confidencial": false,
+  "paciente": {
+    "codigo": "PAC-000001",
+    "tipoDocumento": "DNI",
+    "numeroDocumento": "12153405",
+    "nombres": "MARCELO GABRIEL",
+    "apellidoPaterno": "MICHALSKI",
+    "fechaNacimiento": "1956-05-10",
+    "sexo": "M",
+    "contacto": {
+      "telefono": "541141414141",
+      "email": "emailmarcelo@gmail.com",
+      "domicilio": "Valentin Virasoro 1212 (Caba)"
+    }
+  },
+  "obraSocial": {
+    "codigo": "OSDE",
+    "nombre": "OSDE",
+    "plan": "PLATA 333",
+    "numeroAfiliado": "2211411455/00"
+  },
+  "medico": {
+    "codigo": "MED-PRUEBA",
+    "nombres": "PROFESIONAL",
+    "apellidoPaterno": "DE PRUEBA",
+    "matricula": {
+      "numero": "00001",
+      "provincia": "BUENOS AIRES",
+      "tipo": "MP"
+    },
+    "contacto": {
+      "telefono": "1142427544",
+      "email": "medicoxx@yahoo.com",
+      "domicilio": "Alsina 1212 - Lanueas Este"
+    }
+  },
+  "institucionSolicitante": {
+    "codigo": "INST-PRUEBA",
+    "nombre": "INSTITUCION DE PRUEBA"
+  },
+  "diagnostico": {
+    "descripcion": "Diagnóstico textual de prueba informado en el pedido."
+  },
+  "recepcion": {
+    "terminalId": "RECEPCION-LAB-02",
+    "sedeId": "CMG",
+    "usuarioId": "OPERADOR-017",
+    "fechaHora": "2026-10-12T10:30:00-03:00",
+    "sintomas": "Durante la entrevista de recepción el paciente refiere cansancio y molestias al orinar."
+  },
+  "practicas": [
+    {
+      "itemId": "ITEM-001",
+      "codigo": "475",
+      "nombre": "Hemograma",
+      "cantidad": 1,
+      "observaciones": "",
+      "muestra": true,
+      "importePaciente": 1000,
+      "importeMutual": 0
+    },
+    {
+      "itemId": "ITEM-002",
+      "codigo": "481",
+      "nombre": "Hepatograma",
+      "cantidad": 1,
+      "observaciones": "",
+      "muestra": true,
+      "importePaciente": 2000,
+      "importeMutual": 0
+    },
+    {
+      "itemId": "ITEM-003",
+      "codigo": "O105",
+      "nombre": "Urocultivo",
+      "cantidad": 1,
+      "observaciones": "Muestra no aportada al momento de la recepción de prueba.",
+      "muestra": false,
+      "importePaciente": 3000,
+      "importeMutual": 0
+    }
+  ],
+  "administrativo": {
+    "importeTotalPaciente": 6000,
+    "importeTotalMutual": 0,
+    "importeCobrado": 6000
+  }
+}

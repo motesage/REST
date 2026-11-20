@@ -1,0 +1,67 @@
+{
+    "identificador": "1384463808A",
+    "fecha": "2026-08-11T00:00:00",
+    "ambito": "AMBULATORIO",
+    "observaciones": "prueba",
+    "urgente": false,
+    "confidencial": false,
+    "internacionUbicacion":"",
+    "paciente": {
+        "codigo": "347029",
+        "fechaNacimiento": "2000-01-01",
+        "sexo": "F",
+        "tipoDocumento": "DNI",
+        "numeroDocumento": "95652495",
+        "nombres": "ANA MARIA",
+        "apellidoPaterno": "BEDOYA",
+        "contacto": {
+            "telefono": "54-11-11111111",
+            "email": "marcialduran@gmail.com",
+            "domicilio": "PANAMERICANA KM 49 COUNTRY MAPUCHE LOTE 33 33"
+        },
+        "importePaciente":"",
+        "importeMutual":"",
+        "importeTotal":""
+    },
+    "obraSocial": {
+        "codigo": "123",
+        "nombre": "PARTICULAR",
+        "plan": "UNICO",
+        "numeroAfiliado": ""
+    },
+    "medico": {
+        "codigo": "276582",
+        "tipoDocumento": "DNI",
+        "numeroDocumento": "45430279",
+        "apellidoPaterno": "ROVEDA",
+        "nombres": "MATEO",
+        "contacto": {
+            "telefono": "54-11-12345678",
+            "Email": "not@gmail.com",
+            "domicilio": ""
+        },
+        "matricula": {
+            "numero": "13384",
+            "provincia": "BUENOS AIRES",
+            "tipo": "MP"
+        }
+    },
+    "UbicacionSolicitante": {
+        "codigo": "10005",
+        "nombre": "HOSPITAL GERIATRICO RODRIGUEZ ORTEGA",
+        "contacto": {
+            "telefono": "",
+            "domicilio": "Mariano Pellliza",
+            "email": ""
+        }
+    },
+    "practicas": [
+        {
+            "codigo": "412",
+            "nombre": "GLUCEMIA",
+            "importePaciente":"",
+            "importeMutual":"",
+            "importeTotal":""
+        }
+    ]
+}

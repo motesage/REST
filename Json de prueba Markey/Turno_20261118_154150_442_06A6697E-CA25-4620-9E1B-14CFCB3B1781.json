@@ -1,0 +1,15 @@
+{"identificador":"993753103","transaccionId":"993753103","versionMensaje":"1.0","versionTurno":1,"operacion":"ALTA","fechaHoraMensaje":"2026-11-18T15:41:50-03:00","sistemaOrigen":"MARKEY","fecha":"2026-11-18T00:00:00-03:00","ambito":"AMBULATORIO","urgente":false,"confidencial":false,"paciente":{"codigo":"544829","tipoDocumento":"DNI","numeroDocumento":"47866260","nombres":"TOMÁS ANDRÉS","apellidoPaterno":"SANTANATOGLIA","fechaNacimiento":"2007-05-19","sexo":"M","contacto":{"telefono":"54-11-12312451","email":"tomas.santa70@gmail.com","domicilio":"ACONQUIJA 1398"}},"obraSocial":{"codigo":"30546741253","nombre":"OSDE","plan":"Plan 2-310","numeroAfiliado":"809808000088"},"medico":{
+                        "codigo": "",
+                        "nombres": "",
+                        "apellidoPaterno": "",
+                        "matricula": {
+                            "numero": "",
+                            "provincia": "",
+                            "tipo": ""
+                        },
+                        "contacto": {
+                            "telefono": "",
+                            "email": "",
+                            "domicilio": ""
+                        }
+                    },"institucionSolicitante":{"codigo":"14","nombre":"Clinica Monte Grande"},"recepcion":{"sedeId":"14","terminalId":"Espontaneo","usuarioId":"ADMIN","fechaHora":"2026-11-18T15:41:50-03:00"},"practicas":[{"itemId":"1243731","codigo":"172","nombre":"COBRE EN SANGRE","cantidad":1,"observaciones":"","muestra":false,"importePaciente":800.00,"importeMutual":200.00}],"administrativo":{"importeTotalPaciente":800.00,"importeTotalMutual":200.00,"importeCobrado":800.00}}
